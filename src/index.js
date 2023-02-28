@@ -4,6 +4,7 @@ import HookCounter from './components/HookCounter';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
 import UseEffectHookCounterOne from './components/UseEffectHookCounterOne';
+import UseEffectHookMouse from './components/UseEffectHookMouse';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     {/* <HookCounter /> */}
     {/* <HookCounterTwo /> */}
     {/* <HookCounterThree /> */}
-    <UseEffectHookCounterOne />
+    {/* <UseEffectHookCounterOne /> */}
+    <UseEffectHookMouse />
   </React.StrictMode>
 );
