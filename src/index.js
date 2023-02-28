@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import HookCounter from './components/HookCounter';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
+import UseEffectDataFetching from './components/UseEffectDataFetching';
 import UseEffectHookCounterOne from './components/UseEffectHookCounterOne';
 import UseEffectHookMouse from './components/UseEffectHookMouse';
 import UseEffectIntervalHookCounter from './components/UseEffectIntervalHookCounter';
@@ -18,6 +19,7 @@ root.render(
     {/* <UseEffectHookCounterOne /> */}
     {/* <UseEffectHookMouse /> */}
     {/* <UseEffectMouseContainer /> */}
-    <UseEffectIntervalHookCounter />
+    {/* <UseEffectIntervalHookCounter /> */}
+    <UseEffectDataFetching />
   </React.StrictMode>
 );
