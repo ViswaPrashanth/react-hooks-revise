@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import HookCounter from './components/HookCounter';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
+import UseEffectHookCounterOne from './components/UseEffectHookCounterOne';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,6 +11,7 @@ root.render(
     {/* <App /> */}
     {/* <HookCounter /> */}
     {/* <HookCounterTwo /> */}
-    <HookCounterThree />
+    {/* <HookCounterThree /> */}
+    <UseEffectHookCounterOne />
   </React.StrictMode>
 );
