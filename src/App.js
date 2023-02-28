@@ -1,9 +1,18 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import ComponentA from "./components/ComponentA";
+
+export const userContext = React.createContext();
+export const channelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, world !</h1>
+      <userContext.Provider value={"Viswa"}>
+        <channelContext.Provider value={"Prashanth"}>
+          <ComponentA />
+        </channelContext.Provider>
+      </userContext.Provider>
     </div>
   );
 }
