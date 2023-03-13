@@ -10,6 +10,7 @@ import UseEffectHookMouse from './components/UseEffectHookMouse';
 import UseEffectIntervalHookCounter from './components/UseEffectIntervalHookCounter';
 import UseEffectMouseContainer from './components/UseEffectMouseContainer';
 import CounterOne from './components/UseReducer/CounterOne';
+import CounterTwo from './components/UseReducer/CounterTwo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
     {/* <UseEffectMouseContainer /> */}
     {/* <UseEffectIntervalHookCounter /> */}
     {/* <UseEffectDataFetching /> */}
-    <CounterOne />
+    {/* <CounterOne /> */}
+    <CounterTwo />
   </React.StrictMode>
 );
