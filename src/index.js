@@ -13,6 +13,7 @@ import CounterOne from './components/UseReducer/CounterOne';
 import CounterThree from './components/UseReducer/CounterThree';
 import CounterTwo from './components/UseReducer/CounterTwo';
 import DataFetchingOne from './components/UseReducer/DataFetchingOne';
+import DataFetchingTwo from './components/UseReducer/DataFetchingTwo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
     {/* <CounterOne /> */}
     {/* <CounterTwo /> */}
     {/* <CounterThree /> */}
-    <DataFetchingOne />
+    {/* <DataFetchingOne /> */}
+    <DataFetchingTwo />
   </React.StrictMode>
 );
