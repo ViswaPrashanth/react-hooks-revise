@@ -12,6 +12,7 @@ import UseEffectMouseContainer from './components/UseEffectMouseContainer';
 import CounterOne from './components/UseReducer/CounterOne';
 import CounterThree from './components/UseReducer/CounterThree';
 import CounterTwo from './components/UseReducer/CounterTwo';
+import DataFetchingOne from './components/UseReducer/DataFetchingOne';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
     {/* <UseEffectDataFetching /> */}
     {/* <CounterOne /> */}
     {/* <CounterTwo /> */}
-    <CounterThree />
+    {/* <CounterThree /> */}
+    <DataFetchingOne />
   </React.StrictMode>
 );
