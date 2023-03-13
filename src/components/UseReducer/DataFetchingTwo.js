@@ -10,7 +10,7 @@ const reducer = (state, action) => {
     switch(action.type){
         case 'FETCH_SUCCESS':
             return {
-                loding : false,
+                loading : false,
                 post : action.payload,
                 error : ''
             }

@@ -14,6 +14,7 @@ import CounterThree from './components/UseReducer/CounterThree';
 import CounterTwo from './components/UseReducer/CounterTwo';
 import DataFetchingOne from './components/UseReducer/DataFetchingOne';
 import DataFetchingTwo from './components/UseReducer/DataFetchingTwo';
+import FocusInput from './components/UseRef/FocusInput';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
     {/* <CounterTwo /> */}
     {/* <CounterThree /> */}
     {/* <DataFetchingOne /> */}
-    <DataFetchingTwo />
+    {/* <DataFetchingTwo /> */}
+    <FocusInput />
   </React.StrictMode>
 );
