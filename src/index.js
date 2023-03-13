@@ -4,6 +4,7 @@ import App from './App';
 import HookCounter from './components/HookCounter';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
+import Callback from './components/UseCallback/Callback';
 import UseEffectDataFetching from './components/UseEffectDataFetching';
 import UseEffectHookCounterOne from './components/UseEffectHookCounterOne';
 import UseEffectHookMouse from './components/UseEffectHookMouse';
@@ -35,6 +36,7 @@ root.render(
     {/* <DataFetchingOne /> */}
     {/* <DataFetchingTwo /> */}
     {/* <FocusInput /> */}
-    <HookTimer />
+    {/* <HookTimer /> */}
+    <Callback />
   </React.StrictMode>
 );
