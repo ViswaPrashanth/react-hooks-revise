@@ -10,6 +10,7 @@ import UseEffectHookCounterOne from './components/UseEffectHookCounterOne';
 import UseEffectHookMouse from './components/UseEffectHookMouse';
 import UseEffectIntervalHookCounter from './components/UseEffectIntervalHookCounter';
 import UseEffectMouseContainer from './components/UseEffectMouseContainer';
+import Memo from './components/UseMemo/Memo';
 import CounterOne from './components/UseReducer/CounterOne';
 import CounterThree from './components/UseReducer/CounterThree';
 import CounterTwo from './components/UseReducer/CounterTwo';
@@ -37,6 +38,7 @@ root.render(
     {/* <DataFetchingTwo /> */}
     {/* <FocusInput /> */}
     {/* <HookTimer /> */}
-    <Callback />
+    {/* <Callback /> */}
+    <Memo />
   </React.StrictMode>
 );
