@@ -15,6 +15,7 @@ import CounterTwo from './components/UseReducer/CounterTwo';
 import DataFetchingOne from './components/UseReducer/DataFetchingOne';
 import DataFetchingTwo from './components/UseReducer/DataFetchingTwo';
 import FocusInput from './components/UseRef/FocusInput';
+import HookTimer from './components/UseRef/HookTimer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,6 +34,7 @@ root.render(
     {/* <CounterThree /> */}
     {/* <DataFetchingOne /> */}
     {/* <DataFetchingTwo /> */}
-    <FocusInput />
+    {/* <FocusInput /> */}
+    <HookTimer />
   </React.StrictMode>
 );
