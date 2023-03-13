@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Counter from './components/CustomHooks/Counter';
 import DocTitle from './components/CustomHooks/DocTitle';
 import HookCounter from './components/HookCounter';
 import HookCounterThree from './components/HookCounterThree';
@@ -41,6 +42,7 @@ root.render(
     {/* <HookTimer /> */}
     {/* <Callback /> */}
     {/* <Memo /> */}
-    <DocTitle />
+    {/* <DocTitle /> */}
+    <Counter />
   </React.StrictMode>
 );
