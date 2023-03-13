@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Axios from './components/CustomHooks/Axios';
 import Counter from './components/CustomHooks/Counter';
 import DocTitle from './components/CustomHooks/DocTitle';
 import HookCounter from './components/HookCounter';
@@ -43,6 +44,7 @@ root.render(
     {/* <Callback /> */}
     {/* <Memo /> */}
     {/* <DocTitle /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <Axios />
   </React.StrictMode>
 );
